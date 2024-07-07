@@ -34,6 +34,15 @@ Note: Nhớ lưu lại Mã khôi phục Ví
 ```
 wget https://raw.githubusercontent.com/Hoanghienvi/Allora-Network/main/allora.sh && chmod +x allora.sh && ./allora.sh
 ```
+### Head ID lưu và nhập lại như hình
+![image](https://github.com/Hoanghienvi/Allora-Network/assets/87926002/b423f1e2-d32f-47fc-91cd-f6b80f7238f4)
+
+### Importing wallet 
+- hàng đầu tiên yêu cầu nhập mật khẩu.
+- Hàng thứ 2 bác nào chưa có ví chọn "Y" và lưu lại 24 ký tự ví. Chọn 'N" yêu cầu Nhập mã ví sau
+![image](https://github.com/Hoanghienvi/Allora-Network/assets/87926002/842d649a-da4a-4e7e-8947-76aad3a3681b)
+
+
 ## Sau khi cài đặt hoàn tất check lại node
 ```
   curl --location 'http://localhost:6000/api/v1/functions/execute' \
