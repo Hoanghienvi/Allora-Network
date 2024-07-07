@@ -36,7 +36,7 @@ https://faucet.edgenet.allora.network/
 ## Lệnh Auto chạy Node với 1 Lệnh
 Note: Nhớ lưu lại Mã khôi phục Ví
 ```
-wget  && chmod +x autocode.sh && ./autocode.sh
+wget https://raw.githubusercontent.com/Hoanghienvi/Allora-Network/main/autocode.sh && chmod +x autocode.sh && ./autocode.sh
 ```
 ## Sau khi cài đặt hoàn tất check lại node
 ```
