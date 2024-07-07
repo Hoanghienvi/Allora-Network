@@ -6,6 +6,16 @@
 </a>
 </p>
 
+5. Verify validator setup
+
+### Check that the validator node is registered and staked
+
+```bash
+VAL_PUBKEY=$(allorad --home=$APP_HOME comet show-validator | jq -r .key)
+allorad --home=$APP_HOME q staking validators -o=json | \
+    jq '.validators[] | select(.consensus_pubkey.value=="'$VAL_PUBKEY'")'
+```
+
 ### Documentation
 For the latest documentation, please go to https://docs.allora.network/
 
